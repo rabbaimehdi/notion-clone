@@ -1,6 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Heading } from "./_components/Heading";
 import { Heroes } from "./_components/Heroes";
+import { Footer } from "./_components/Footer";
 
 export default function MarketingPage() {
   return (
@@ -9,6 +10,7 @@ export default function MarketingPage() {
         <Heading></Heading>
         <Heroes></Heroes>
       </div>
+      <Footer></Footer>
     </div>
   );
 }
